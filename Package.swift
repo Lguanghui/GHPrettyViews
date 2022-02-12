@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "GHPrettyViews",
             dependencies: [],
-        exclude: ["ExampleProj"]),
+        exclude: ["ExampleProj/"]),
         .testTarget(
             name: "GHPrettyViewsTests",
             dependencies: ["GHPrettyViews"]),
