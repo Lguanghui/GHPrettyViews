@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE03B24F27C1524600B91E25 /* GHPrettyViews in Frameworks */ = {isa = PBXBuildFile; productRef = BE03B24E27C1524600B91E25 /* GHPrettyViews */; };
+		BE03B25327C1566300B91E25 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE03B25227C1566300B91E25 /* SnapKit */; };
+		BE03B25727C1595C00B91E25 /* LGHUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE03B25627C1595C00B91E25 /* LGHUIKit */; };
 		BEA8CFA227B7D7C100EDB32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFA127B7D7C100EDB32A /* AppDelegate.swift */; };
 		BEA8CFA427B7D7C100EDB32A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFA327B7D7C100EDB32A /* SceneDelegate.swift */; };
 		BEA8CFA627B7D7C100EDB32A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFA527B7D7C100EDB32A /* ViewController.swift */; };
@@ -17,7 +20,7 @@
 		BEA8CFC327B7D7C200EDB32A /* ExampleProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFC227B7D7C200EDB32A /* ExampleProjUITests.swift */; };
 		BEA8CFC527B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFC427B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift */; };
 		BEA8D00C27B7F6BD00EDB32A /* GHFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = BEA8D00B27B7F6BD00EDB32A /* GHFoundation */; };
-		BEA8D01927B7FB8100EDB32A /* AlbumShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8D01827B7FB8100EDB32A /* AlbumShadowView.swift */; };
+		BEA8D01927B7FB8100EDB32A /* AlbumShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8D01827B7FB8100EDB32A /* AlbumShadowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE03B25027C1524E00B91E25 /* GHPrettyViews */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GHPrettyViews; path = ..; sourceTree = "<group>"; };
 		BEA8CF9E27B7D7C100EDB32A /* ExampleProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA8CFA127B7D7C100EDB32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA8CFA327B7D7C100EDB32A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +78,7 @@
 		BEA8CFC427B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GHPrettyViews.xcodeproj; path = ../../GHPrettyViews.xcodeproj; sourceTree = "<group>"; };
 		BEA8D01027B7F6D900EDB32A /* GHFoundation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GHFoundation; path = ../../GHFoundation; sourceTree = "<group>"; };
-		BEA8D01827B7FB8100EDB32A /* AlbumShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumShadowView.swift; sourceTree = "<group>"; };
+		BEA8D01827B7FB8100EDB32A /* AlbumShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumShadowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE03B25327C1566300B91E25 /* SnapKit in Frameworks */,
+				BE03B25727C1595C00B91E25 /* LGHUIKit in Frameworks */,
+				BE03B24F27C1524600B91E25 /* GHPrettyViews in Frameworks */,
 				BEA8D00C27B7F6BD00EDB32A /* GHFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +113,7 @@
 		BEA8CF9527B7D7C100EDB32A = {
 			isa = PBXGroup;
 			children = (
+				BE03B25027C1524E00B91E25 /* GHPrettyViews */,
 				BEA8D01027B7F6D900EDB32A /* GHFoundation */,
 				BEA8CFA027B7D7C100EDB32A /* ExampleProj */,
 				BEA8CFB727B7D7C200EDB32A /* ExampleProjTests */,
@@ -169,7 +177,7 @@
 		BEA8D01727B7FB4E00EDB32A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BEA8D01827B7FB8100EDB32A /* AlbumShadowView.swift */,
+				BEA8D01827B7FB8100EDB32A /* AlbumShadowViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -193,6 +201,9 @@
 			name = ExampleProj;
 			packageProductDependencies = (
 				BEA8D00B27B7F6BD00EDB32A /* GHFoundation */,
+				BE03B24E27C1524600B91E25 /* GHPrettyViews */,
+				BE03B25227C1566300B91E25 /* SnapKit */,
+				BE03B25627C1595C00B91E25 /* LGHUIKit */,
 			);
 			productName = ExampleProj;
 			productReference = BEA8CF9E27B7D7C100EDB32A /* ExampleProj.app */;
@@ -268,6 +279,9 @@
 			mainGroup = BEA8CF9527B7D7C100EDB32A;
 			packageReferences = (
 				BEA8D00A27B7F6BD00EDB32A /* XCRemoteSwiftPackageReference "GHFoundation" */,
+				BE03B24D27C1524600B91E25 /* XCRemoteSwiftPackageReference "GHPrettyViews" */,
+				BE03B25127C1566300B91E25 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				BE03B25527C1595C00B91E25 /* XCRemoteSwiftPackageReference "LGHUIKit" */,
 			);
 			productRefGroup = BEA8CF9F27B7D7C100EDB32A /* Products */;
 			projectDirPath = "";
@@ -337,7 +351,7 @@
 			files = (
 				BEA8CFA627B7D7C100EDB32A /* ViewController.swift in Sources */,
 				BEA8CFA227B7D7C100EDB32A /* AppDelegate.swift in Sources */,
-				BEA8D01927B7FB8100EDB32A /* AlbumShadowView.swift in Sources */,
+				BEA8D01927B7FB8100EDB32A /* AlbumShadowViewController.swift in Sources */,
 				BEA8CFA427B7D7C100EDB32A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,6 +703,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BE03B24D27C1524600B91E25 /* XCRemoteSwiftPackageReference "GHPrettyViews" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lguanghui/GHPrettyViews";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BE03B25127C1566300B91E25 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		BE03B25527C1595C00B91E25 /* XCRemoteSwiftPackageReference "LGHUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lguanghui/LGHUIKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		BEA8D00A27B7F6BD00EDB32A /* XCRemoteSwiftPackageReference "GHFoundation" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Lguanghui/GHFoundation";
@@ -700,6 +738,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BE03B24E27C1524600B91E25 /* GHPrettyViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE03B24D27C1524600B91E25 /* XCRemoteSwiftPackageReference "GHPrettyViews" */;
+			productName = GHPrettyViews;
+		};
+		BE03B25227C1566300B91E25 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE03B25127C1566300B91E25 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BE03B25627C1595C00B91E25 /* LGHUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE03B25527C1595C00B91E25 /* XCRemoteSwiftPackageReference "LGHUIKit" */;
+			productName = LGHUIKit;
+		};
 		BEA8D00B27B7F6BD00EDB32A /* GHFoundation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BEA8D00A27B7F6BD00EDB32A /* XCRemoteSwiftPackageReference "GHFoundation" */;
