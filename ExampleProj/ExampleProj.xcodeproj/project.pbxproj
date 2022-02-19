@@ -16,6 +16,8 @@
 		BEA8CFB927B7D7C200EDB32A /* ExampleProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFB827B7D7C200EDB32A /* ExampleProjTests.swift */; };
 		BEA8CFC327B7D7C200EDB32A /* ExampleProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFC227B7D7C200EDB32A /* ExampleProjUITests.swift */; };
 		BEA8CFC527B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8CFC427B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift */; };
+		BEA8D00C27B7F6BD00EDB32A /* GHFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = BEA8D00B27B7F6BD00EDB32A /* GHFoundation */; };
+		BEA8D01927B7FB8100EDB32A /* AlbumShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8D01827B7FB8100EDB32A /* AlbumShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		BEA8CFC227B7D7C200EDB32A /* ExampleProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjUITests.swift; sourceTree = "<group>"; };
 		BEA8CFC427B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GHPrettyViews.xcodeproj; path = ../../GHPrettyViews.xcodeproj; sourceTree = "<group>"; };
+		BEA8D01027B7F6D900EDB32A /* GHFoundation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GHFoundation; path = ../../GHFoundation; sourceTree = "<group>"; };
+		BEA8D01827B7FB8100EDB32A /* AlbumShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA8D00C27B7F6BD00EDB32A /* GHFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,7 @@
 		BEA8CF9527B7D7C100EDB32A = {
 			isa = PBXGroup;
 			children = (
+				BEA8D01027B7F6D900EDB32A /* GHFoundation */,
 				BEA8CFA027B7D7C100EDB32A /* ExampleProj */,
 				BEA8CFB727B7D7C200EDB32A /* ExampleProjTests */,
 				BEA8CFC127B7D7C200EDB32A /* ExampleProjUITests */,
@@ -124,6 +130,7 @@
 				BEA8CFA127B7D7C100EDB32A /* AppDelegate.swift */,
 				BEA8CFA327B7D7C100EDB32A /* SceneDelegate.swift */,
 				BEA8CFA527B7D7C100EDB32A /* ViewController.swift */,
+				BEA8D01727B7FB4E00EDB32A /* ViewControllers */,
 				BEA8CFA727B7D7C100EDB32A /* Main.storyboard */,
 				BEA8CFAA27B7D7C200EDB32A /* Assets.xcassets */,
 				BEA8CFAC27B7D7C200EDB32A /* LaunchScreen.storyboard */,
@@ -159,6 +166,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BEA8D01727B7FB4E00EDB32A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8D01827B7FB8100EDB32A /* AlbumShadowView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +191,9 @@
 				BEA8CFFB27B7EC8700EDB32A /* PBXTargetDependency */,
 			);
 			name = ExampleProj;
+			packageProductDependencies = (
+				BEA8D00B27B7F6BD00EDB32A /* GHFoundation */,
+			);
 			productName = ExampleProj;
 			productReference = BEA8CF9E27B7D7C100EDB32A /* ExampleProj.app */;
 			productType = "com.apple.product-type.application";
@@ -248,6 +266,9 @@
 				Base,
 			);
 			mainGroup = BEA8CF9527B7D7C100EDB32A;
+			packageReferences = (
+				BEA8D00A27B7F6BD00EDB32A /* XCRemoteSwiftPackageReference "GHFoundation" */,
+			);
 			productRefGroup = BEA8CF9F27B7D7C100EDB32A /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -316,6 +337,7 @@
 			files = (
 				BEA8CFA627B7D7C100EDB32A /* ViewController.swift in Sources */,
 				BEA8CFA227B7D7C100EDB32A /* AppDelegate.swift in Sources */,
+				BEA8D01927B7FB8100EDB32A /* AlbumShadowView.swift in Sources */,
 				BEA8CFA427B7D7C100EDB32A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,6 +687,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEA8D00A27B7F6BD00EDB32A /* XCRemoteSwiftPackageReference "GHFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lguanghui/GHFoundation";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEA8D00B27B7F6BD00EDB32A /* GHFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEA8D00A27B7F6BD00EDB32A /* XCRemoteSwiftPackageReference "GHFoundation" */;
+			productName = GHFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEA8CF9627B7D7C100EDB32A /* Project object */;
 }
