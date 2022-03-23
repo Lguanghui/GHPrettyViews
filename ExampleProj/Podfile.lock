@@ -2,11 +2,15 @@ PODS:
   - FoundationX (0.0.2)
   - LoveUIKit (0.0.1):
     - SnapKit (~> 5.0.1)
+  - PrettyViews (0.0.1):
+    - FoundationX
+    - LoveUIKit
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - FoundationX (from `https://github.com/Lguanghui/FoundationX.git`)
   - LoveUIKit (from `https://github.com/Lguanghui/LoveUIKit.git`)
+  - PrettyViews (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -17,6 +21,8 @@ EXTERNAL SOURCES:
     :git: https://github.com/Lguanghui/FoundationX.git
   LoveUIKit:
     :git: https://github.com/Lguanghui/LoveUIKit.git
+  PrettyViews:
+    :path: "../"
 
 CHECKOUT OPTIONS:
   FoundationX:
@@ -29,8 +35,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   FoundationX: 3f36e4d39954a31dc92287ae36cf9c62ad5e5809
   LoveUIKit: f7ddb030b348515615fe0fbef0b8da8b3672e9f2
+  PrettyViews: 4cbd022b89915807c993a3705be48630e349529a
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 1f0dd6d1ee1dbf97c27469bd0fa797d62d85eac5
+PODFILE CHECKSUM: f3b411f8a2b5b5da469b1b1f7ba14c0e66cd5be3
 
 COCOAPODS: 1.10.1

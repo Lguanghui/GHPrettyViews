@@ -1,3 +1,3 @@
-# GHPrettyViews
+# PrettyViews
 
-A description of this package.
+  A collection of pretty views.
