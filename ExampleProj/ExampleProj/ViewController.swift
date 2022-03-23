@@ -7,7 +7,7 @@
 
 import UIKit
 import LGHUIKit
-import GHFoundation
+import FoundationX
 import SnapKit
 
 class RootViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {

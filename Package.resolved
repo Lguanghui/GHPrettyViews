@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "LGHUIKit",
-        "repositoryURL": "https://github.com/Lguanghui/LGHUIKit",
-        "state": {
-          "branch": "master",
-          "revision": "254bdb74b738ff6865c43df458185011ab2b0e53",
-          "version": null
-        }
-      },
-      {
         "package": "SnapKit",
         "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
         "state": {

@@ -1,11 +1,11 @@
 import XCTest
-@testable import GHPrettyViews
+@testable import PrettyViews
 
-final class GHPrettyViewsTests: XCTestCase {
+final class PrettyViewsTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(GHPrettyViews().text, "Hello, World!")
+        XCTAssertEqual(PrettyViews().text, "Hello, World!")
     }
 }

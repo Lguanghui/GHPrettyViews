@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import GHPrettyViews
+import PrettyViews
 
 class AlbumShadowViewController: UIViewController {
 

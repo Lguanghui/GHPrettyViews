@@ -1,0 +1,36 @@
+PODS:
+  - FoundationX (0.0.2)
+  - LoveUIKit (0.0.1):
+    - SnapKit (~> 5.0.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - FoundationX (from `https://github.com/Lguanghui/FoundationX.git`)
+  - LoveUIKit (from `https://github.com/Lguanghui/LoveUIKit.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  FoundationX:
+    :git: https://github.com/Lguanghui/FoundationX.git
+  LoveUIKit:
+    :git: https://github.com/Lguanghui/LoveUIKit.git
+
+CHECKOUT OPTIONS:
+  FoundationX:
+    :commit: 77f7ac114b827a5d6b15d4b8b750e906ac594b9b
+    :git: https://github.com/Lguanghui/FoundationX.git
+  LoveUIKit:
+    :commit: c7e41dd1c7b7464e1e9827245b95516c0f608fa0
+    :git: https://github.com/Lguanghui/LoveUIKit.git
+
+SPEC CHECKSUMS:
+  FoundationX: 3f36e4d39954a31dc92287ae36cf9c62ad5e5809
+  LoveUIKit: f7ddb030b348515615fe0fbef0b8da8b3672e9f2
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 1f0dd6d1ee1dbf97c27469bd0fa797d62d85eac5
+
+COCOAPODS: 1.10.1
