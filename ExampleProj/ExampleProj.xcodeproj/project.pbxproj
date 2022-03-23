@@ -38,27 +38,6 @@
 			remoteGlobalIDString = BEA8CF9D27B7D7C100EDB32A;
 			remoteInfo = ExampleProj;
 		};
-		BEA8CFF127B7EB7700EDB32A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "GHPrettyViews::GHPrettyViews::Product";
-			remoteInfo = GHPrettyViews;
-		};
-		BEA8CFF327B7EB7700EDB32A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "GHPrettyViews::GHPrettyViewsTests::Product";
-			remoteInfo = GHPrettyViewsTests;
-		};
-		BEA8CFFA27B7EC8700EDB32A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = "GHPrettyViews::GHPrettyViews";
-			remoteInfo = GHPrettyViews;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -85,7 +64,6 @@
 		BEA8CFBE27B7D7C200EDB32A /* ExampleProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA8CFC227B7D7C200EDB32A /* ExampleProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjUITests.swift; sourceTree = "<group>"; };
 		BEA8CFC427B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GHPrettyViews.xcodeproj; path = ../../GHPrettyViews.xcodeproj; sourceTree = "<group>"; };
 		BEA8D01827B7FB8100EDB32A /* AlbumShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumShadowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,7 +152,6 @@
 				BEA8CFAA27B7D7C200EDB32A /* Assets.xcassets */,
 				BEA8CFAC27B7D7C200EDB32A /* LaunchScreen.storyboard */,
 				BEA8CFAF27B7D7C200EDB32A /* Info.plist */,
-				BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */,
 			);
 			path = ExampleProj;
 			sourceTree = "<group>";
@@ -194,15 +171,6 @@
 				BEA8CFC427B7D7C200EDB32A /* ExampleProjUITestsLaunchTests.swift */,
 			);
 			path = ExampleProjUITests;
-			sourceTree = "<group>";
-		};
-		BEA8CFEB27B7EB7600EDB32A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BEA8CFF227B7EB7700EDB32A /* GHPrettyViews.framework */,
-				BEA8CFF427B7EB7700EDB32A /* GHPrettyViewsTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BEA8D01727B7FB4E00EDB32A /* ViewControllers */ = {
@@ -229,7 +197,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				BEA8CFFB27B7EC8700EDB32A /* PBXTargetDependency */,
 			);
 			name = ExampleProj;
 			productName = ExampleProj;
@@ -309,12 +276,6 @@
 			mainGroup = BEA8CF9527B7D7C100EDB32A;
 			productRefGroup = BEA8CF9F27B7D7C100EDB32A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = BEA8CFEB27B7EB7600EDB32A /* Products */;
-					ProjectRef = BEA8CFEA27B7EB7600EDB32A /* GHPrettyViews.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				BEA8CF9D27B7D7C100EDB32A /* ExampleProj */,
@@ -323,23 +284,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		BEA8CFF227B7EB7700EDB32A /* GHPrettyViews.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GHPrettyViews.framework;
-			remoteRef = BEA8CFF127B7EB7700EDB32A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BEA8CFF427B7EB7700EDB32A /* GHPrettyViewsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = GHPrettyViewsTests.xctest;
-			remoteRef = BEA8CFF327B7EB7700EDB32A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BEA8CF9C27B7D7C100EDB32A /* Resources */ = {
@@ -513,11 +457,6 @@
 			isa = PBXTargetDependency;
 			target = BEA8CF9D27B7D7C100EDB32A /* ExampleProj */;
 			targetProxy = BEA8CFBF27B7D7C200EDB32A /* PBXContainerItemProxy */;
-		};
-		BEA8CFFB27B7EC8700EDB32A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GHPrettyViews;
-			targetProxy = BEA8CFFA27B7EC8700EDB32A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
